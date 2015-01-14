@@ -1,0 +1,132 @@
+body {
+	font-family: 'Century Gothic', CenturyGothic, sans-serif;
+	width: 100% !important;
+	height: 100% !important;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+a.home-button, a.home-button:hover {
+	color: rgba(255, 255, 255, 0.8);
+	border: none;
+	font-size: 1.5em;
+	background: rgba(62, 118, 194, 0.9); /* #3E76C2 */
+	padding: 6px 16px;
+	position: absolute;
+	top: 7px;
+	left: 0px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-right: 1px solid rgba(187, 187, 187, 0.2);
+	border-bottom: 1px solid rgba(187, 187, 187, 0.2);
+	border-top: 1px solid rgba(187, 187, 187, 0.2);
+}
+
+a.home-button:hover {
+	color: rgba(255, 255, 255, 1);
+	background: rgba(62, 118, 194, 1);
+	border-color: rgba(187, 187, 187, 0.4);;
+}
+
+@media(max-width: 768px) {
+	a.home-button {
+		font-size: 2em;
+	}
+
+	.main-photos div {
+		width: 50%;
+	}
+
+	.main-photos div:last-child {
+		margin: 0 auto;
+		position: relative;
+		top: 28px;
+	}
+}
+.brand-heading {
+	font-size: 3em;
+	margin-top:64px;
+	font-family: 'Century Gothic', CenturyGothic, sans-serif !important;
+}
+
+section.intro {
+	padding-bottom: 0;
+}
+
+img[alt="autumnary"] {
+	max-width: 32%;
+	margin-top: 84px;
+	padding: 0 17px 17px 0;
+}
+
+section.content-section {
+	padding-top: 0;
+}
+
+.donate-btn {
+    /*margin-bottom: 20px;*/
+}
+
+.main-photos {
+	margin: 40px 0;
+}
+
+.main-photos img {
+    max-width: 100%;
+}
+
+/* card */
+.card-wrapper {
+	margin-bottom: 24px;
+	text-align: left;
+	height: 520px;
+	background: #fff;
+	color: #000;
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+.card-wrapper > div {
+	height: 100%;
+}
+
+.card-content {
+	padding-top: 1em;
+}
+
+.card-content h2 {
+	font-size: 1em;
+}
+
+.donation-stats > div p:nth-child(2) {
+	font-size: 3em;
+}
+
+.donate-btn {
+	margin: 1em 0;
+}
+
+.card-wrapper .card-image {
+	background: url(../img/johnking001.jpg) no-repeat 80% 50%;
+	background-size: cover;
+	position: relative;
+	right: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
